@@ -5,13 +5,13 @@ import Todo from "./Todo";
 const Todos = () => {
   const { tasks, sortTasks } = useSelector((store) => store.todoList);
   return !sortTasks ? (
-    <div>
+    <div className="todos-container">
       {tasks.map((task, index) => {
         return <Todo key={index} task={task} index={index} />;
       })}
     </div>
   ) : (
-    <div>
+    <div className="todos-container">
       {tasks.map((task, index) => {
         if (!task.isDone) {
           return <Todo key={index} task={task} index={index} />;

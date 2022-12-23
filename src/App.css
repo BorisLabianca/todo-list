@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  box-shadow: 0 1px 5px black;
+  padding: 15px 40px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.counters {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+}
+.toolbar {
+  padding: 45px;
+}
+.form {
+  display: flex;
+  gap: 15px;
+}
+.form input {
+  font-size: 20px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.form button {
+  font-size: 20px;
+  border: none;
+  background-color: mediumorchid;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.trash {
+  color: mediumorchid;
+}
+.todos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

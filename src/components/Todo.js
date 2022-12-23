@@ -24,7 +24,7 @@ const Todo = ({ task, index }) => {
       <p style={{ textDecoration: task.isDone && "line-through" }}>
         {task.name}
       </p>
-      <FaTrash onClick={handleOnClick} />
+      <FaTrash onClick={handleOnClick} className="trash" />
     </div>
   );
 };

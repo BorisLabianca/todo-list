@@ -17,8 +17,8 @@ const ToolBar = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="container toolbar">
+      <form onSubmit={handleSubmit} className="form">
         <input type="text" placeholder="Type in a task to add" ref={inputRef} />
         <button type="submit">Register task</button>
         <button type="button">Undo last event</button>

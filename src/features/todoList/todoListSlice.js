@@ -60,7 +60,6 @@ const todoListSlice = createSlice({
     },
   },
 });
-console.log(todoListSlice);
 
 export default todoListSlice.reducer;
 
